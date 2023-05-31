@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img{
+    width:150px ;
+}
+.carousel-inner .carousel-item{
+    position: relative;
+    height: 100vh;
+    
+}
+.carousel-inner .carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.8);
+}
+.overlay{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.523);
+    z-index: 1;
+}
+.overlay h1{
+    font-size: 40px;
+}
+.logo-footer img{
+width: 200px;
+}
+.card-speakers img{
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+.text-justify{
+    text-align: start;
+}
+textarea{
+    resize: none;
+}
+.img-contacto img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+    
+}
+.img-contact{
+    width: 100%;
+}
